@@ -11,7 +11,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val Path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_ALARMS).toString() + File.separator + "cud"
+        // path ，也可不需要，有默认值。
+        val Path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_ALARMS).toString() + File.separator + "AndroidDeviceId"
         CustomDeviceId.init(this).setFilePath(Path).getCustomDeviceId
     }
 }
