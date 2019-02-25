@@ -9,6 +9,8 @@
 ![Screenshot](screenshot/01.png)
 
 #### 使用方法
+![Screenshot](screenshot/03.png)
+![Screenshot](screenshot/04.png)
 ![Screenshot](screenshot/02.png)
 
 ### 注意
